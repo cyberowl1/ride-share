@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+<style>
+    #display{
+        background:red;
+    }
+</style>
+{% block body %}
+
+<div class="container-fluid" id="display">
+   <p> Hey {{ fname }} you have successfully created ride from {{ sourceid }} <br>
+ to {{ destid }} for {{ seats }} of seats</p>
+</div>
+
+
+{% endblock %}

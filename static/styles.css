@@ -1,0 +1,79 @@
+#display{
+    background:blue;
+    height:200px;
+    width:720px;
+    display:flex;
+    align-self:center;
+    margin-top:20px;
+    padding:5px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 5.25rem;
+  color: #fff;
+  text-align: center;
+}
+.himage{
+    width:100%;
+}
+.cbox{
+    width:33%;
+    height:48vh;
+    border-right:2px dashed grey;
+    pading:2rem;
+    margin:1px;
+}
+.cbox p{
+    margin:1rem;
+}
+.sbox{
+
+    width:100%;
+    /*border:4px solid red;*/
+    height:50vh;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.flex-box{
+    display:flex;
+}
+.sicon {
+  width: 30%;
+  position: relative;
+  left: 10vw;
+  margin:.7rem;
+}
+.inputbx{
+    width:50%;
+}
+.form-box{
+padding:2rem;
+    background:skyblue;
+    margin:2rem;
+}
+.rl{
+    position:relative;
+    left:30vw;
+}
+.ridebox{
+    width:30%;
+    position:relative;
+    left:26vw;
+    border:2px dashed green;
+    margin:2rem;
+    padding:1.6rem;
+}
+.nride{
+    position:relative;
+    left:27vw;
+    top:-9vw;
+    background-color: #1400ff;
+--bs-bg-opacity: 1;
+}
+/*.text-center{*/
+/*    text-align:center;*/
+/*}*/

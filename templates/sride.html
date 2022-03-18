@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+{% for row in rows %}
+<div class = "conatiner ridebox">
+    <p>Name:  {{ row["name"] }} <br>
+       Source: {{ row["source"] }} <br>
+       Destination:  {{ row["dest"] }}
+      seats :    {{ row["seats"] }}
+      Contact:  {{ row["phone"] }}
+ </p>
+<span class="badge nride">{{ row["id"] }}</span>
+</div>
+{% endfor %}
+{% endblock %}
